@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* emotions */
+#emotions{left:0;max-width:395px; font-size:12px;background:#fff;position:absolute;border:1px solid #E8E8E8;}
+#emotions a{color:#9ABBC8;padding:2px 7px;text-decoration:none;}
+#emotions img{border:0;}
+#emotions div{margin:5px 10px;padding:1px;overflow:hidden;}
+#emotions #prev,#emotions #next{margin-left:3px;background:#eee;}
+#emotions .categorys{color:#ccc;height:23px;color:#9ABBC8;overflow:hidden;}
+#emotions .categorys a{display:inline-block;}
+#emotions .categorys a:hover{text-decoration:underline;}
+#emotions .categorys a.current{cursor:default;background:#F0F0F0;-moz-border-radius:3px;-webkit-border-radius:3px;}
+#emotions .containerFace{padding:1px;overflow:hidden;height:176px;}
+#emotions .containerFace a{float:left;width:26px;height:30px;text-align:center;padding:4px 2px;margin:-1px 0 0 -1px;border:1px solid #e8e8e8;}
+#emotions .containerFace a:hover{z-index:2;position:relative;border:1px solid #0095cd;}
+#emotions .page{text-align:right;}
+#emotions .page a.current{color:#666;background-color:#fff;}
+#emotions .page a{margin-left:3px;color:#0078B6;background-color:#f3f3f3;}
+#emotions .page a:hover{background-color:#e7e7e7;}
+
+.face{position:relative;width:80px; height:20px; background:url('img/icon.gif') no-repeat 2px 2px; padding-left:20px; cursor:pointer;margin:0;}
+.face:hover{background-position:2px -28px}
+.face input{margin:0px;padding:0;}
+
+.faceContent{position:relative;margin:0px;padding:0px;height:auto;min-height:62px;max-height:302;background-color:#E9E9E9;}
+.faceContent .faceText{margin:0px;padding:0px;height:40px;}
+.faceContent .faceText>div{float:left;height:40px;line-height:20px;font-size:14px; overflow:hidden;}
+.faceContent .faceText>div:first-child{border:1px solid #EBEBEB;padding:2px;background-color:#fff;}
+.faceContent .faceText>div:last-child{border:1px solid #EBEBEB;text-align: center;padding:0;}
+.faceContent .faceText>div:last-child button{margin:0;height:100%;width:100%;}
+.faceContent .faceImg{ margin:0;padding:0;height:20px;}
+.faceContent .faceImg div{float:left;}
